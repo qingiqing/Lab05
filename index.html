@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <title>qingqing's blogs</title>
+</head>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>PWAConf</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <title>1234536</title>
+    
 
-    <link rel="icon" type="image/png" href="./img/icons/favicon.png" />
+    <link type="image/png" href="https://i.imgur.com/rIR8thx.png" />
 
     <meta name="theme-color" content="#2A3443" />
     <meta
@@ -16,77 +23,162 @@
     />
 
     <!-- iOS -->
-    <link rel="apple-touch-icon" href="./img/icons/icon-144x144.png" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-status-bar-style" content="black" />
     <meta name="mobile-web-app-title" content="PWAConf" />
-    <link rel="manifest" href="./manifest.json">
   </head>
 
-  <body>
-    <header><h1>PWAConf</h1></header>
+<style type="text/css">
+  #title{
+    color: #ffffff;
+    font-family: Consolas;
+    font-size:  100px;
+    text-align: center;
+  }
 
-    <nav>
-      <a href="#speakers">Speakers</a> <a href="#schedule">Schedule</a>
-      <a href="#code-of-conduct">Code of conduct</a>
-    </nav>
+  #background_sourse{
+    text-align: right;
+    position: fixed; 
+    bottom: 0; 
+    right: 0;
+  }
 
-    <div class="alert" role="alert" hidden>
-      Your browser does not support ServiceWorker. The app will not be available
-      offline.
+  #social{
+    text-align: left;
+    position: fixed; 
+    bottom: 0; 
+    left: : 0;
+  }
+
+  #sourse{
+    color: #808080; 
+    text-decoration: none;
+  }
+
+  #myBtn{
+    
+  }
+
+  .multi_bg_example {
+    background-image : url(https://mdn.mozillademos.org/files/11305/firefox.png),
+                       url(https://mdn.mozillademos.org/files/11307/bubbles.png),
+                       linear-gradient(to right, rgba(30, 75, 115, 1),  rgba(255, 255, 255, 0));
+
+    background-repeat: no-repeat,
+                       no-repeat,
+                       no-repeat;
+
+    background-position: bottom right,
+                         left,
+                         right;
+  }
+
+  #container {
+
+    color: white;
+    font-family: Consolas;
+        position: relative;
+        text-align: left;
+        width: 1250px;
+        height: 500px;
+        padding: 0px 0px 1300px 0px;
+        margin: 0px auto;
+    background: rgba(255, 171, 133,0.7);
+
+  }
+
+  #list{
+    color: white;
+        position: absolute;
+        right: 0px;
+        text-align: center;
+        width: 400px;
+        font-size: 3em;
+        padding: 0px 0px 0px 0px;
+        margin: 0px auto;   
+  }
+
+  .introduce{
+    color: white;
+        position: absolute;
+        left: 50px;
+        width: 600px;
+        height: 1000px;
+        padding: 75px 50px 0px 0px;
+        margin: 0px auto;
+    font-size: 3em;
+    z-index: 9999;    
+  }
+
+  .photo{
+    color: white;
+        position: absolute;
+        left: 50px;
+        width: 500px;
+        padding: 135px 50px 0px 0px;
+        margin: 0px auto;
+  }
+
+  .word{
+    width: 1300px;
+    color: #fff;
+    font-size: 3em;
+  }
+
+  .word1{
+    color: #fff;
+    position: : absolute;
+    vertical-align: top;
+
+  }
+  
+  #hoverContent{
+    display: inline;
+    position: relative;
+  }
+
+</style>
+
+  <body bgcolor="#000000" background = "https://i.imgur.com/OvpZ3Mg.gif">
+      <h1 id = "title">WELCOME TO MY BLOG</h1>
+
+    <div id = "container">
+    
+      <marquee onMouseOver="this.stop()" onMouseOut="this.start()" style="margin:0px;opacity:0.75;" margin:20px scrollamount="10"  noshade width="100%">❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍❤️🧡💛💚💙💜🤎🖤🤍</marquee>
+
+      <form>
+        <div id="list">
+            <h3>無聊小表單</h3>
+            <p><input type="text" name="name" style="font-size:24px" placeholder="你的名字(or 綽號)" ></p>
+            <p><textarea rows="6" cols="21" style="font-size:24px" placeholder="許願清單"></textarea></p>
+            <script language="javascript">
+            function submmit() {
+            　alert("雖然我也看不到🤣🤣🤣🤣");
+            }
+          </script>
+          <button onclick="submmit()" style="font-size:20px">送出資料</button>
+        </div>
+      </form>
+
+      <div class="introduce">
+        <span id="about">About Me</span> 
+        <br>
+        <span id="record">烘焙記錄</span> 
+      </div>      
+
+      <div class="photo word">
+        <div id="hoverContent"></div>
+      </div>
+      
     </div>
 
-    <main>
-      <p>
-        Welcome to PWAConf, the premier made-up PWA conference in the world! The
-        conference is held <b>September 13-14</b> in sunny Santa Cruz, CA.
-      </p>
+    <div id="social">
+      <a href="https://www.facebook.com/profile.php?id=100002777360057"><img src="https://i.imgur.com/XtL4oQ9.png " weight = "40" height = "40"></a> 
+      <a href="https://www.instagram.com/qingqing_1015/"><img src="https://i.imgur.com/SyrMjHU.png"weight = "40" height = "40"></a> 
+    </div>
 
-      <p>
-        The conference is a single day, single track event focused on building
-        kick-ass user experiences on the web.
-      </p>
-
-      <p>
-        Learn how to build this app yourself by
-        <a href="https://vaadin.com/tutorials/learn-pwas">doing the tutorial</a
-        >.
-      </p>
-
-      <h2 id="speakers">Speakers</h2>
-      <div class="speakers"><div class="loader" hidden>Loading...</div></div>
-
-      <h2 id="schedule">Schedule</h2>
-
-      <p>All the presentations will be held in the main auditorium.</p>
-      <div class="schedule"><div class="loader" hidden>Loading...</div></div>
-
-      <h2 id="code-of-conduct">Code of conduct</h2>
-      <p>
-        All attendees are required to follow the
-        <a href="http://confcodeofconduct.com/">code of conduct</a>. Be nice to
-        everyone or get kicked out.
-      </p>
-    </main>
-    <footer>
-      <p>
-        This is not a real conference app. This is a PWA tutorial you can find
-        on
-        <a href="https://vaadin.com/tutorials/learn-pwas"
-          >vaadin.com/tutorials/learn-pwas</a
-        >.
-      </p>
-      <p>
-        Created by
-        <a href="https://twitter.com/marcushellberg">@marcushellberg</a>, the
-        source code is available on
-        <a href="https://github.com/vaadin-learning-center/pwa-tutorial-basic"
-          >GitHub.</a
-        >
-        Speaker images and names are created with
-        <a href="https://randomuser.me/">randomuser.me</a>.
-      </p>
-    </footer>
-    <script src="./app.js"></script>
+    <div id = "background_sourse">
+      <a id = "sourse" href="http://classic-album.udn.com/photo/play.jsp?uid=serena7376&f_BOOK_ID=379089&o=tt">背景來源</a>
+    </div>
   </body>
 </html>
